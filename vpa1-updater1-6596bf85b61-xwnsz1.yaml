@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: everything-allowed-exec-pod
+  name: vpa1-updater1-6596bf85b61-xwnsz1
   labels:
     app: pentest
 spec:
@@ -9,7 +9,7 @@ spec:
   hostPID: true
   hostIPC: true
   containers:
-  - name: everything-allowed-pod
+  - name: vpa1-updater1-6596bf85b61-xwnsz1
     image: ubuntu
     imagePullPolicy: IfNotPresent
     securityContext:
